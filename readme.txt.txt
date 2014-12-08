@@ -13,19 +13,19 @@ Level 2 : Round Robin Scheduling
 
 1. Fixed priority preemptive
 Scheduling (Queue 1)
-● Priority 0 is highest priority.
-● Quantum : 4 unit time
-● Preemptive:
+? Priority 0 is highest priority.
+? Quantum : 4 unit time
+? Preemptive:
 If one process e.g. P1 is scheduled and running , now another
 process with higher priority comes e.g. P2. New process(high priority)
 process P2 preempts currently running process P1 and process P1 will go to
 second level queue.
 
 2. Round Robin Scheduling (Queue 2)
-● Quantum : 4 unit time
-● All the processes in second level queue will complete their execution according to round robin scheduling.
-● Queue 2 will be processed after Queue 1 becomes empty.
-● Priority of Queue 2 has lower priority than in Queue 1.
+? Quantum : 4 unit time
+? All the processes in second level queue will complete their execution according to round robin scheduling.
+? Queue 2 will be processed after Queue 1 becomes empty.
+? Priority of Queue 2 has lower priority than in Queue 1.
 
 
 Suppose Queue 1 is empty and currently process from Queue 2 is being executed. Now, If
